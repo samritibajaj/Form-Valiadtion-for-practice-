@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="flx">
+        <div class="formd">
+            <center><form onsubmit="return validation()" id="form">
+                <label>Username</label>
+                <input type="text" id="user"	 placeholder="enter ur name" autocomplete="off"><br>
+                <span id="userr" style="color:blue; font-weight:bold;"></span>
+                <br><br>
+                <label>Password</label>
+                <input type="password" id="pass" placeholder="password" autocomplete="off">
+                <br><span id="passs" style="color:red; font-weight:800;"></span>
+                <br><br>
+                <label>Confirm password</label>
+                <input type="password" id="conpass" placeholder="confirm password" autocomplete="off">
+                <br><span id="conpasss" style="color:red; font-weight:800;"></span>
+                <br><br>
+                <label>Email</label>
+                <input type="text" id="email" placeholder="email" autocomplete="off">
+                <br><span id="emaill" style="color:red; font-weight:800;"></span>
+                <br><br>
+                <label>Mobile number</label>
+                <input type="no" id="mobile" placeholder="mobile" autocomplete="off">
+                <br><span id="mobilee" style="color:red; font-weight:800;"></span>
+                <br>
+                <input onclick="run()"type="submit" id="submit" placeholder="">
+            </form>
+            </center>
+        </div>
+        
+        
+        
+        <div id="formdata">
+
+
+            <script src="script.js"></script>
+</body>
+</html>
